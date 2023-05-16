@@ -52,7 +52,7 @@ h2 span {
 }
 .group .imgBx img{
     width: 100%;
-    
+
     /*  width: 80%;
     height: 250px; */
     
@@ -67,4 +67,30 @@ h2 span {
     margin: 50px 50px 0;
     gap: 40px;
     grid-template-columns: 2fr 3fr;
+}
+.bottom .left_side{
+ margin-top: 50px;
+}
+h4{
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    color: #fff;
+    background: #231fbf;
+    font-weight: 600;
+    padding: 0 15px;
+    margin-top: 40px;
+    display: inline-flex;
+}
+.contactInfo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+}
+.contactInfo li{
+    list-style: none;
+    display: flex;
+    gap: 10px;
 }
