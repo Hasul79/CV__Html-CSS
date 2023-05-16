@@ -52,8 +52,19 @@ h2 span {
 }
 .group .imgBx img{
     width: 100%;
+    
+    /*  width: 80%;
+    height: 250px; */
+    
 }
 .group p{
     color: #fff;
     font-size: 1.05em;
+}
+.bottom{
+    position: relative;
+    display: grid;
+    margin: 50px 50px 0;
+    gap: 40px;
+    grid-template-columns: 2fr 3fr;
 }
