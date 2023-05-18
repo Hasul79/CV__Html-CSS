@@ -114,3 +114,19 @@ h4 {
     align-items: center;
     grid-template-columns: 2fr 3fr;
 }
+.skills .skillsBox p {
+    color: #333;
+}
+.skills .skillsBox .value {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #eee;
+}
+.skills .skillsBox .value:before{
+    content:'';
+    position: absolute;
+    width: var(--i);
+    height: 100%;
+    background: #231fbf;
+}
