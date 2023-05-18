@@ -71,7 +71,7 @@ h2 span {
 .bottom .left_side{
  margin-top: 50px;
 }
-h4{
+h4 {
     font-size: 1.1em;
     text-transform: uppercase;
     letter-spacing: 0.25em;
@@ -82,15 +82,35 @@ h4{
     margin-top: 40px;
     display: inline-flex;
 }
-.contactInfo{
+.contactInfo {
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 20px;
     margin: 20px 0;
 }
-.contactInfo li{
+.contactInfo li {
     list-style: none;
     display: flex;
     gap: 10px;
+}
+.contactInfo li .icon {
+    color: #231fbf;
+}
+.contactInfo li .text {
+ color: #555;
+}
+.skills {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+}
+.skills .skillsBox {
+    position: relative;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 3fr;
 }
